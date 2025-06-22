@@ -1,2 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/4WyOGCeZ)
-# Template-Projecte
+
+
+# App Booking System
+
+Android application developed in Android Studio as part of a university course project. 
+The objective was to design and implement a booking system for a business offering court reservations. 
+
+RxJava was used for the development of the application, which includes features such as user registration, 
+login, and court booking.
