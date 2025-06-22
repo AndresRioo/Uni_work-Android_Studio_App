@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/VisualitzaEsports">
+
+    <fragment
+        android:id="@+id/VisualitzaEsports"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.VisualitzarEsportsFragment"
+        android:label="Visualitza esports"
+        tools:layout="@layout/fragment_visualitzar_esports">
+        <action
+            android:id="@+id/action_VisualitzaEsports_to_ReservarOUnirse"
+            app:destination="@id/ReservarOUnirse" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/AjustesPerfil"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.AjustesPerfilFragment"
+        android:label="Ajustes Perfil"
+        tools:layout="@layout/fragment_ajustes_perfil">
+        <action
+            android:id="@+id/action_AjustesPerfil_to_CanviarContrasenya"
+            app:destination="@id/CanviarContrasenya" />
+        <action
+            android:id="@+id/action_AjustesPerfil_to_MisReservas"
+            app:destination="@id/MisReservas" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/MisReservas"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.VisualitzarReservesFragment"
+        android:label="Mis reservas"
+        tools:layout="@layout/fragment_visualitzar_reservas">
+        <action
+            android:id="@+id/action_MisReservas_to_VisualitzarInfoPartit"
+            app:destination="@id/VisualitzarInfoPartit" />
+        <action
+            android:id="@+id/action_MisReservas_to_VisualitzarInfoPista"
+            app:destination="@id/VisualitzarInfoPista" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CanviarContrasenya"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.CanviarContrasenyaFragment"
+        android:label="Canviar Contrasenya"
+        tools:layout="@layout/fragment_canviar_contrasenya"/>
+        <action
+            android:id="@+id/action_CanviarContrasenya_to_AjustesPerfil"
+            app:destination="@id/AjustesPerfil" />
+
+    <fragment
+        android:id="@+id/ReservarOUnirse"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.OpcionsReservarFragment"
+        android:label=" CAMBIO DINAMICO AL NOMBRE DE LA PANTALLA"
+        tools:layout="@layout/fragment_opcions_reservar">
+        <action
+            android:id="@+id/action_ReservarOUnirse_to_CalendariPartit"
+            app:destination="@id/CalendariPartit" />
+        <action
+            android:id="@+id/action_ReservarOUnirse_to_CalendariPista"
+            app:destination="@id/CalendariPista" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VisualitzarInfoPartit"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.CancelarPartitFragment"
+        android:label="Info Partit"
+        tools:layout="@layout/fragment_cancelar_partit">
+        <action
+            android:id="@+id/action_VisualitzarInfoPartit_to_VisualitzaEsports2"
+            app:destination="@id/VisualitzaEsports" />
+        <action
+            android:id="@+id/action_VisualitzarInfoPartit_to_MisReservas"
+            app:destination="@id/MisReservas" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VisualitzarInfoPista"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.CancelarPistaFragment"
+        android:label="Info Pista"
+        tools:layout="@layout/fragment_cancelar_pista">
+        <action
+            android:id="@+id/action_VisualitzarInfoPista_to_VisualitzaEsports2"
+            app:destination="@id/VisualitzaEsports" />
+        <action
+            android:id="@+id/action_VisualitzarInfoPista_to_MisReservas"
+            app:destination="@id/MisReservas" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CalendariPista"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.VisualitzarCalendariPistaFragment"
+        android:label="Calendari Pista"
+        tools:layout="@layout/fragment_visualitzar_calendari_pista">
+        <action
+            android:id="@+id/action_CalendariPista_to_VisualizarHorasPista"
+            app:destination="@id/VisualizarHorasPista" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CalendariPartit"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.VisualitzarCalendariPartitFragment"
+        android:label="Calendari Partit"
+        tools:layout="@layout/fragment_visualitzar_calendari_partit">
+        <action
+            android:id="@+id/action_CalendariPartit_to_VisualizarHorasPartido"
+            app:destination="@id/VisualizarHorasPartido" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ReservarPista"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.ReservarPistaFragment"
+        android:label="Reservar Pista"
+        tools:layout="@layout/fragment_reservar_pista">
+        <action
+            android:id="@+id/action_ReservarPista_to_VisualitzaEsports"
+            app:destination="@id/VisualitzaEsports" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/UnirsePartido"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.ReservarPartitFragment"
+        android:label="Unirse Partido"
+        tools:layout="@layout/fragment_reservar_partit">
+        <action
+            android:id="@+id/action_UnirsePartido_to_VisualitzaEsports"
+            app:destination="@id/VisualitzaEsports" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VisualizarHorasPartido"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.VisualitzarHoresPartitFragment"
+        android:label="Horas Partido"
+        tools:layout="@layout/fragment_visualitzar_hores_partit">
+        <action
+            android:id="@+id/action_VisualizarHorasPartido_to_UnirsePartido"
+            app:destination="@id/UnirsePartido" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VisualizarHorasPista"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.fragments.VisualitzarHoresPistaFragment"
+        android:label="Horas Pista"
+        tools:layout="@layout/fragment_visualitzar_hores_pista">
+        <action
+            android:id="@+id/action_VisualizarHorasPista_to_ReservarPista"
+            app:destination="@id/ReservarPista" />
+    </fragment>
+
+    <activity
+        android:id="@+id/SignUp"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.activities.SignUpActivity"
+        android:label="SIGN UP"
+        tools:layout="@layout/activity_sign_up"
+
+
+        />
+
+    <activity
+        android:id="@+id/LogIn"
+        android:name="edu.ub.pis2324.projecte.presentation.presentation.ui.activities.LogInActivity"
+        android:label="LOG IN"
+        tools:layout="@layout/activity_log_in"
+
+        />
+
+
+</navigation>

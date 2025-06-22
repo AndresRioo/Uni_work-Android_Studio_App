@@ -1,0 +1,9 @@
+<resources>
+    <!-- Define el estilo personalizado para el texto del título de la Toolbar -->
+    <style name="ToolbarTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/white</item> <!-- Color del texto -->
+        <item name="android:textSize">20sp</item> <!-- Tamaño del texto -->
+        <item name="android:gravity">center</item> <!-- Centrar el texto -->
+        <!-- Otros atributos de estilo que quieras aplicar -->
+    </style>
+</resources>

@@ -1,0 +1,59 @@
+[33m036d991[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: commit (merge): Merge remote-tracking branch 'origin/main'
+[33m95ae040[m HEAD@{1}: commit: demanar nom e imprimir nom i correu client
+[33m7025a6d[m HEAD@{2}: commit: millora sign up i AjustesPerfilFragment
+[33md16e593[m HEAD@{3}: merge origin/main: Fast-forward
+[33m62ee745[m HEAD@{4}: commit: millora al tancar/eliminar compte
+[33m4df0445[m HEAD@{5}: commit: canviarContrasenya amab contrasenya oculta
+[33m0811440[m HEAD@{6}: commit: sessionMemory desacoplats
+[33m8b43974[m HEAD@{7}: commit: log in desacoplat controlador menys sessionMemory
+[33m126c0a9[m HEAD@{8}: commit: sign up desacoplat controlador menys sessionMemory
+[33me672767[m HEAD@{9}: commit: canviar contrasenya sense controlador
+[33m3eac954[m HEAD@{10}: rebase (finish): returning to refs/heads/main
+[33m3eac954[m HEAD@{11}: rebase (start): checkout origin/main
+[33m0374c6b[m HEAD@{12}: rebase (finish): returning to refs/heads/main
+[33m0374c6b[m HEAD@{13}: rebase (start): checkout origin/main
+[33mc7e4478[m HEAD@{14}: merge origin/main: Fast-forward
+[33m49394aa[m HEAD@{15}: merge origin/main: Fast-forward
+[33mbab6f36[m HEAD@{16}: rebase (finish): returning to refs/heads/main
+[33mbab6f36[m HEAD@{17}: rebase (start): checkout origin/main
+[33m2308d69[m HEAD@{18}: commit: Aplicacio binding log in i sign up
+[33mc57b25b[m HEAD@{19}: commit: visualitzar/ocultar contrasenya sign up
+[33m1874776[m HEAD@{20}: commit: millora visualitzar esports i visualitzar/ocultar contrasenya log in
+[33m669fdf3[m HEAD@{21}: commit: contrasenya oculta
+[33md374008[m HEAD@{22}: rebase (finish): returning to refs/heads/main
+[33md374008[m HEAD@{23}: rebase (start): checkout origin/main
+[33mf4bda63[m HEAD@{24}: commit: eliminar compte i canviar contrasenya
+[33m2cc1f49[m HEAD@{25}: merge origin/main: Fast-forward
+[33m89f8fe5[m HEAD@{26}: merge origin/main: Merge made by the 'ort' strategy.
+[33m99c66c2[m HEAD@{27}: commit: creacio d'objectes
+[33mb78d6f7[m HEAD@{28}: merge origin/main: Fast-forward
+[33meb6ff12[m HEAD@{29}: commit: creacio d'objectes
+[33m3119e11[m HEAD@{30}: merge origin/main: Fast-forward
+[33mdba9e6e[m HEAD@{31}: commit: correcció codi
+[33m62bea74[m HEAD@{32}: merge origin/main: Fast-forward
+[33m4e53706[m HEAD@{33}: commit: visualitzacio esports acabat
+[33m43db396[m HEAD@{34}: commit: visualitzacio esports
+[33m04cd663[m HEAD@{35}: commit: github arreglat
+[33m80e98cd[m HEAD@{36}: commit: prova
+[33m913dbf7[m HEAD@{37}: commit: prova
+[33m2745be1[m HEAD@{38}: merge origin/main: Merge made by the 'ort' strategy.
+[33m0bab941[m HEAD@{39}: commit: dsg
+[33m11747d6[m HEAD@{40}: rebase (finish): returning to refs/heads/main
+[33m11747d6[m HEAD@{41}: rebase (pick): dsg
+[33ma591fc0[m HEAD@{42}: rebase (start): checkout origin/main
+[33m24ef5bc[m HEAD@{43}: commit: dsg
+[33mc04fd24[m HEAD@{44}: rebase (finish): returning to refs/heads/main
+[33mc04fd24[m HEAD@{45}: rebase (pick): visualitzacio esports
+[33m819ce3a[m HEAD@{46}: rebase (pick): codi revisat
+[33m8008497[m HEAD@{47}: rebase (start): checkout origin/main
+[33m05ace1b[m HEAD@{48}: commit: visualitzacio esports
+[33mf633097[m HEAD@{49}: commit: codi revisat
+[33m79b36f1[m HEAD@{50}: commit: codi revisat
+[33mf5a66a7[m HEAD@{51}: commit: sign up i log in acabats, queda revisar codi
+[33m0efa86e[m HEAD@{52}: commit: sign up comprova si el client existeix
+[33m9814c8b[m HEAD@{53}: commit: log in casi acabat
+[33m8990f5b[m HEAD@{54}: commit: Creació clase client
+[33mb61ab67[m HEAD@{55}: commit: Log in .xml + llegir correu i contrsaenya + saltar a sign up quan es prem el boto
+[33m8a15aa3[m HEAD@{56}: commit: SignUp acabat sense foto
+[33m6da7a34[m HEAD@{57}: commit: SignUp sense foto
+[33mdcda667[m HEAD@{58}: clone: from https://github.com/ProjecteIntegratDeSoftware-23-24/projecte-rcdm7.git

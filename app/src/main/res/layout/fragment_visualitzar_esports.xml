@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".presentation.presentation.ui.fragments.VisualitzarEsportsFragment">
+
+    <Button
+        android:id="@+id/btnPadel"
+        android:layout_width="108dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/disenyoboton"
+        android:text="Pàdel"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFutbol7"
+        android:layout_width="95dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/disenyoboton"
+        android:text="Futbol 7"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBasquet"
+        android:layout_width="101dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="308dp"
+        android:background="@drawable/disenyoboton"
+        android:text="Bàsquet"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFutbolSala"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/disenyoboton"
+        android:text="Futbol Sala"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVoleibol"
+        android:layout_width="109dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="476dp"
+        android:background="@drawable/disenyoboton"
+        android:text="Voleibol"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTenis"
+        android:layout_width="94dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="476dp"
+        android:background="@drawable/disenyoboton"
+        android:text="Tenis"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="128dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="228dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFutbol7"
+        app:srcCompat="@drawable/sport_ball_football_free_png__1_" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="128dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sport_ball_football_free_png__1_" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="88dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="384dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_257505722724c0e4e0819bd9727f859_ilustracion_de_voleibol_deportivo" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="139dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sport_ball_basketball_png" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="103dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pilotatenisdefinitiva" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="107dp"
+        android:layout_height="98dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/btnFutbolSala"
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/pilotatenisdefinitiva" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

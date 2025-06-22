@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".presentation.presentation.ui.fragments.CancelarPartitFragment"
+    tools:layout_editor_absoluteX="2dp"
+    tools:layout_editor_absoluteY="-84dp">
+
+
+    <Button
+        android:id="@+id/btnSortir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="116dp"
+
+
+        android:background="@drawable/disenyoboton"
+
+
+        android:gravity="center"
+        android:text="SORTIR DEL GRUP"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="288dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/degradadoazul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="287dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="388dp"
+        android:background="@drawable/degradadoazul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="260dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="144dp"
+        android:text="INFORMACIÓ DEL PARTIT"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="204dp"
+        android:text="Data:"
+        android:textColor="@color/coral"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtInfoData"
+        android:layout_width="127dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="204dp"
+        android:textColor="@color/coral"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtInfoHora"
+        android:layout_width="127dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="236dp"
+        android:textColor="@color/coral"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtInfoEsport"
+        android:layout_width="127dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="268dp"
+        android:textColor="@color/coral"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtInfoNivell"
+        android:layout_width="127dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/coral"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtInfoMaterial"
+        android:layout_width="127dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="332dp"
+        android:textColor="@color/coral"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtInfoParticipants"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/coral"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHora"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="236dp"
+        android:text="Hora:"
+        android:textColor="@color/coral"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEsport"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="268dp"
+        android:text="Esport:"
+        android:textColor="@color/coral"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtNivell"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="300dp"
+        android:text="Nivell:"
+        android:textColor="@color/coral"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMaterial"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="332dp"
+        android:text="Material:"
+        android:textColor="@color/coral"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtParticipants"
+        android:layout_width="173dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="400dp"
+        android:text="Participants actuals:"
+        android:textColor="@color/coral"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
